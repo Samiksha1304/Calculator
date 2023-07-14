@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Orbitron';
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 29, 29);
+    overflow: hidden;
+    text-align: center;
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.button{
+    font-family: 'Orbitron';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    /*padding: 30px;*/
+    /*margin: 0 3px;*/
+    border: 3px solid rgb(76, 91, 16);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(187, 255, 0);
+    transition: 0.1s;
+}
+
+.button:hover{ 
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    
+}
+.row{ 
+    margin: 6px 0;
+    display: flex;
+    gap: 10px;
+}
+.row input{
+    justify-content: end;
+    font-size: 22px;
+    margin: 0;
+    padding: 15px 27px;
+    border: 5px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    background-color: rgb(219, 219, 219);
+    
+}
+canvas {
+    display: block;
+}
+.fa-solid fa-delete-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 3px solid rgb(76, 91, 16);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(187, 255, 0);
+    transition: 0.1s;
+}
